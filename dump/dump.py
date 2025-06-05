@@ -1,5 +1,3 @@
-stack=[]
-if not stack:
-    print("if worked")
-else:
-    print("else worked")
+stack=[[1,2,3],[4,5,6]]
+for row in stack:
+    print(row[1])
